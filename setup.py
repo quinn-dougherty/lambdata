@@ -13,7 +13,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
         name="lambdata-quinndougherty", 
-        version="0.0.1", 
+        version="0.0.2", 
         author="quinndougherty", 
         description="A collection of data science helper functions", 
         long_description=LONG_DESCRIPTION, 

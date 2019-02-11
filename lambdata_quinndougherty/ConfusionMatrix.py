@@ -11,7 +11,10 @@ class ConfusionMatrix:
     self.y_test = y_test
     self.confusion_matrix = self.make_()
 
-  def make(self, model=self.model, dat=self.X_test, target=self.y_test):
+  def make_(self):
+    model = self.model
+    dat = self.X_test
+    target = self.y_test
     seconds = ['Negative', 'Positive']
     firsts = ['Actual', 'Predicted']
           
