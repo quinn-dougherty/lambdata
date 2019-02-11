@@ -36,22 +36,26 @@ class ConfusionMatrix:
     df = pd.DataFrame(c, index=tupdex(firsts[0]), columns=tupdex(firsts[1]))
     return df
 
-  def precision(self, cm=self.confusion_matrix): 
+  def precision(self):
+    cm = self.confusion_matrix
     TP = cm['Predicted Positive'].loc['Actual Positive']
     PP = cm['Predicted Positive'].sum()
     return np.divide(TP, PP)
 
-  def recall(self, cm=self.confusion_matrix): 
+  def recall(self): 
+    cm = self.confusion_matrix
     TP = cm['Predicted Positive'].loc['Actual Positive']
     AP = cm.loc['Actual Positive'].sum()
     return np.divide(TP, AP)
 
-  def F1(self, cm=self.confusion_matrix): 
+  def F1(self): 
+    cm = self.confusion_matrix
     prec = self.precision(cm)
     reca = self.recall(cm)
     return 2 * np.divide(prec * reca, prec + reca)
 
-  def typeI(self, cm=self.confusion_matrix):
+  def typeI(self):
+    cm = self.confusion_matrix
     return cm['Predicted Positive'].loc['Actual Negative']
 
   def confusion_report(self, cm=self.confusion_matrix):
