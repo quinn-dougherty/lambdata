@@ -1,4 +1,4 @@
-# Coonfusion Matrix
+# Confusion Matrix
 
 [![PyPi version](https://pypip.in/v/lambdata-quinndougherty/badge.png)](https://test.pypi.org/project/lambdata-quinndougherty/)
 [![PyPi downloads](https://pypip.in/d/lambdata-quinndougherty/badge.png)](https://test.pypi.org/project/lambdata-quinndougherty/)
