@@ -1,8 +1,7 @@
 # Coonfusion Matrix
 
-https://test.pypi.org/simple/ lambdata-quinndougherty
-[![PyPi version](https://pypip.in/v/lambdata-quinndougherty/badge.png)](https://crate.io/packages/lambdata-quinndougherty/)
-[![PyPi downloads](https://pypip.in/d/lambdata-quinndougherty/badge.png)](https://crate.io/packages/lambdata-quinndougherty/)
+[![PyPi version](https://test.pypip.in/v/lambdata-quinndougherty/badge.png)](https://crate.io/packages/lambdata-quinndougherty/)
+[![PyPi downloads](https://test.pypip.in/d/lambdata-quinndougherty/badge.png)](https://crate.io/packages/lambdata-quinndougherty/)
 
 
 python package with helper funcs for data science
