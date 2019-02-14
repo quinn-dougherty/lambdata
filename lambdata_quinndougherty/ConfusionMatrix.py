@@ -1,10 +1,12 @@
 import numpy as np
 import pandas as pd
 
+
 class ConfusionMatrix:
     '''for some 2-class classifier pipe, after running pipe.fit(X_train,
     y_train), pass into this class pipe, X_test, y_test
            to get a confusion matrix and it's associated calculations. '''
+
     def __init__(self, pipe, X_test, y_test):
         self.model = pipe.best_estimator_
         self.X_test = X_test
